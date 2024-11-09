@@ -1,0 +1,9 @@
+.header-shadow {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .header-blur {
+    transition: backdrop-filter 0.3s ease;
+  }
+} 
