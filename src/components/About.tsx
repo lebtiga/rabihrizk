@@ -31,6 +31,17 @@ const About = () => {
               <p className="text-sm text-slate-400">Your AI-Powered Developer</p>
             </div>
           </div>
+          <div className="mt-8">
+            <div className="aspect-video w-full rounded-xl overflow-hidden">
+              <iframe
+                src="https://www.youtube.com/embed/xWvpkf6FfvA?start=12"
+                title="YouTube video"
+                className="w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden transform hover:scale-105 transition-transform duration-500">
               <img
